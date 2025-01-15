@@ -1,0 +1,5 @@
+- Fetch data sueldo minimo
+- hitos por periodo con swiper
+- contenido
+
+docker exec -i c80-db-1 mysql -u root -padmin c80 < /mnt/c/Users/pablo/Documents/Web/c80/1686597305_c80_cl.sql

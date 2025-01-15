@@ -57,6 +57,6 @@ export interface PageContent {
   image: string;
   order: number;
   fields: {
-    [key: string]: string;
+    [key: string]: string | string[];
   };
 }
