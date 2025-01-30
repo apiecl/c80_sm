@@ -3,6 +3,10 @@ import { ref, watch, watchEffect } from "vue";
 import Main from "./components/Main.vue";
 import { config } from "./config";
 import { PageContent, TLEvent } from "./types/wptypes";
+import { createApp } from "vue";
+
+const app = createApp({});
+
 
 const eventsData = ref<TLEvent[]>([]);
 const pagesData = ref<PageContent[]>([]);

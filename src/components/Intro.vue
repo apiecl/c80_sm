@@ -36,4 +36,18 @@ const bgImg = {
     max-width: 660px;
     text-align: center;
 }
+
+h1,
+h2 {
+    font-family: var(--font-serif);
+    margin: 0;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-weight: normal;
+}
 </style>

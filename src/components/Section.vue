@@ -36,7 +36,14 @@ defineProps<Props>()
 .content-wrapper {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 64px 0;
+    padding: 24px 0;
     display: flex;
+
+    &.columns {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 24px;
+        align-items: center;
+    }
 }
 </style>

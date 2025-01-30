@@ -55,6 +55,7 @@ export interface PageContent {
   content: string;
   slug: string;
   image: string;
+  image_full: string;
   order: number;
   fields: {
     [key: string]: string | string[];
